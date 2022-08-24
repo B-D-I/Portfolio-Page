@@ -307,3 +307,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 150px;
     height: 150px;
 }
+
+/*Scroll bar*/
+::-webkit-scrollbar{
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: -webkit-gradient(linear,left top,left bottom,from(#656565),to(#bbbbbb));
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.25), inset 1px 1px 1px rgba(0,0,0,.25);
+}
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+
+iframe{
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
