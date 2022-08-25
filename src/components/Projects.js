@@ -44,7 +44,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={10}>
-                <h2>Projects</h2>
+                <h2 id="project_header">Projects</h2>
                   <br />
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      <Tab.Pane eventKey="first">

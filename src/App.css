@@ -233,7 +233,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 99%;
 }
 #home{
-    margin-top: -100px;
+    margin-top: -120px;
 }
 #profile{
     font-size: 25px;
@@ -243,10 +243,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 70px;
     color: #def5f6;
 }
-
 #git{
   width: 90px;
   height: 90px;
+}
+#project_header{
+    margin-top: -50px;
 }
 
 .banner img {
