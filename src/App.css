@@ -1,17 +1,17 @@
 /*Fonts*/
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	src: url('./assets/font/AnekTelugu-Regular.ttf');
 	font-weight: 800;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
+	src: url('./assets/font/AnekTelugu-Light.ttf');
 	font-weight: 600;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	src: url('./assets/font/AnekTelugu-Light.ttf');
 	font-weight: 500;
 }
 
@@ -49,10 +49,6 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -74,13 +70,6 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
 /*Navbar*/
 nav.navbar {
   padding: 18px 0;
@@ -92,14 +81,14 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: rgba(3, 89, 129, 0.85);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: rgba(3, 89, 129, 0.85) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -112,6 +101,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
     display: flex;
     align-items: center;
+    margin-top: -30px;
 }
 .social-icon {
     display: inline-block;
@@ -120,21 +110,21 @@ span.navbar-text {
 .social-icon a {
     width: 70px;
     height: 70px;
-    background: rgba(217, 217, 217, 0.1);
+    background: rgba(3, 89, 129, 0.85);
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(3, 89, 129, 0.85);
 }
 .social-icon a::before {
     content: "";
     width: 70px;
     height: 70px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(3, 89, 129, 0.85);
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -202,7 +192,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/background.jpg');
+  background-image: url('./assets/img/background2.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,7 +201,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(6, 3, 84, 0.5) -5.91%, rgba(52, 39, 105, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(53, 159, 229, 0.5) 111.58%, rgba(44, 134, 155, 0.5) -5.91%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   font-size: 30px;
@@ -244,11 +234,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: #def5f6;
 }
 #git{
-  width: 90px;
-  height: 90px;
+  width: 105px;
+  height: 105px;
 }
 #project_header{
     margin-top: -50px;
+}
+#text_area{
+    padding: 25px;
+    background-color: rgba(3, 89, 129, 0.85);
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*margin-top: -30px;*/
 }
 
 .banner img {
@@ -274,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background: linear-gradient(90.21deg, rgba(53, 53, 115, 0.5) 111.58%, rgba(107, 107, 224, 0.5) -5.91%);
+  background: linear-gradient(90.21deg, rgba(53, 159, 229, 0.5) 111.58%, rgba(44, 134, 155, 0.5) -5.91%);
 }
 .project h2 {
 	font-size: 65px;
@@ -303,15 +301,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*Footer*/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/background.jpg');
+  background-image: url('./assets/img/background2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#spaceman{
-    width: 150px;
-    height: 150px;
 }
 
 /*Scroll bar*/
@@ -332,4 +325,14 @@ iframe{
     border: 0;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: aliceblue;
+}
+a:hover{
+    color: white;
 }

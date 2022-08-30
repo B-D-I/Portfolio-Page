@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import linkedIn from '../assets/img/nav-icon1.svg';
-import github from '../assets/img/github.png';
+import github from '../assets/img/github2.png';
 
 import {
   BrowserRouter as Router
