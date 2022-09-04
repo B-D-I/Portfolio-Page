@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import spaceman from "../assets/img/header-img.svg";
 
 export const Footer = () => {
   return (
