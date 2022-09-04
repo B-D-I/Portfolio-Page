@@ -51,15 +51,15 @@ export const Projects = () => {
 
                       <Row>
                         <div className="col">
-                            <iframe width="560" height="315" src={hack_neurons.url}
-                                    title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                            <iframe src={hack_neurons.url}
+                                    frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                           encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                            <h5>{hack_neurons.description}</h5>
                        </div>
 
                        <div className="col">
-                            <iframe width="560" height="315" src={hack_neurons.url}
-                                    title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                            <iframe src={hack_neurons.url}
+                                    frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                           encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                            <h5>{hack_neurons.description}</h5>
                        </div>
@@ -68,15 +68,15 @@ export const Projects = () => {
                       <Row>
 
                     <div className="col">
-                        <iframe width="560" height="315" src={jungle_game.url}
-                                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                        <iframe src={jungle_game.url}
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                       encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <h5>{jungle_game.description}</h5>
                    </div>
 
                    <div className="col">
-                        <iframe width="560" height="315" src={water_bowser.url}
-                                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                        <iframe src={water_bowser.url}
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                       encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                        <h5>{water_bowser.description}</h5>
                    </div>
@@ -85,15 +85,15 @@ export const Projects = () => {
                   <Row>
 
                     <div className="col">
-                        <iframe  width="560" height="315" src={flight_sched.url}
-                                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                        <iframe src={flight_sched.url}
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                       encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <h5>{flight_sched.description}</h5>
                    </div>
 
                    <div className="col">
-                        <iframe width="560" height="315" src={social_media.url}
-                                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
+                        <iframe src={social_media.url}
+                                frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                       encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                        <h5>{social_media.description}</h5>
                    </div>
