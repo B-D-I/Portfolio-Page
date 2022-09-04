@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio-Page/static/css/main.77d8bede.css",
-    "main.js": "/Portfolio-Page/static/js/main.1e6ac0e9.js",
+    "main.js": "/Portfolio-Page/static/js/main.8f481463.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio-Page/static/js/787.fb771931.chunk.js",
     "static/media/background2.jpg": "/Portfolio-Page/static/media/background2.1f47c4a6dfaaae380fe0.jpg",
+    "static/media/DataStructures&Algorithms.pdf": "/Portfolio-Page/static/media/DataStructures&Algorithms.15e3d7512b479d69af9e.pdf",
+    "static/media/AI_Assign.pdf": "/Portfolio-Page/static/media/AI_Assign.932d9b1dde41fe216819.pdf",
+    "static/media/hacking_neurons.pdf": "/Portfolio-Page/static/media/hacking_neurons.053a474889fc6e3ee4e8.pdf",
     "static/media/color-sharp2.png": "/Portfolio-Page/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/AnekTelugu-Regular.ttf": "/Portfolio-Page/static/media/AnekTelugu-Regular.aa90584ccea9f8d2586f.ttf",
     "static/media/AnekTelugu-Light.ttf": "/Portfolio-Page/static/media/AnekTelugu-Light.ba077d433f11cea8eb54.ttf",
-    "static/media/header-img.svg": "/Portfolio-Page/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/github2.png": "/Portfolio-Page/static/media/github2.bbfb158dc7e6aa74bba0.png",
-    "static/media/JavaOriginal.svg": "/Portfolio-Page/static/media/JavaOriginal.a751bad6c81431ab4dd6fa6632a65540.svg",
     "index.html": "/Portfolio-Page/index.html",
     "static/media/nav-icon1.svg": "/Portfolio-Page/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.77d8bede.css.map": "/Portfolio-Page/static/css/main.77d8bede.css.map",
-    "main.1e6ac0e9.js.map": "/Portfolio-Page/static/js/main.1e6ac0e9.js.map",
+    "main.8f481463.js.map": "/Portfolio-Page/static/js/main.8f481463.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio-Page/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77d8bede.css",
-    "static/js/main.1e6ac0e9.js"
+    "static/js/main.8f481463.js"
   ]
 }
