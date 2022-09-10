@@ -20,6 +20,7 @@ export const Profile = () => {
                   I also have experience with unit and automated testing tools, such as;
                   TestNG, JUnit and Selenium, and have gained knowledge of concepts including;
                   object-orientated programming, data structures & algorithms, data analytics, and cyber security.
+              Programming languages I have experience with include; Java, Python, C++, JavaScript, and PHP.
                   <br /><br />
               <h2>Reports:</h2>
                 <li><a href={hackNeuron} target="_blank">Hacking Neurons: An analysis of deep learning vulnerabilities</a></li>

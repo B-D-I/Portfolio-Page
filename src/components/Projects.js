@@ -7,7 +7,8 @@ export const Projects = () => {
   const hack_neurons = {
     title: "Hacking Neural Networks ",
     description: "Scenery classification model determining safe emergency landing areas. " +
-        "This example shows how a backdoor can be inserted into the model to provide a detrimental outcome.",
+        "This example shows how a backdoor can be inserted into the model to provide a detrimental outcome. Application" +
+        " and convolutional neural network model written using Python frameworks; Flask and Keras.",
     url: "https://www.youtube.com/embed/BPsiS0C0TVI",
   }
   const jungle_game = {
@@ -61,7 +62,7 @@ export const Projects = () => {
                             <iframe src={hack_neurons.url}
                                     frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
                           encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                           <h5>{hack_neurons.description}</h5>
+                           <h5>TBC</h5>
                        </div>
                       </Row>
                         <br />
