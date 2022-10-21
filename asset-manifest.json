@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Page/static/css/main.bdc3bebb.css",
-    "main.js": "/Portfolio-Page/static/js/main.6cd0b368.js",
+    "main.js": "/Portfolio-Page/static/js/main.107ff2c5.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio-Page/static/js/787.fb771931.chunk.js",
     "static/media/background2.jpg": "/Portfolio-Page/static/media/background2.1f47c4a6dfaaae380fe0.jpg",
     "static/media/DataStructures&Algorithms.pdf": "/Portfolio-Page/static/media/DataStructures&Algorithms.15e3d7512b479d69af9e.pdf",
@@ -14,11 +14,11 @@
     "index.html": "/Portfolio-Page/index.html",
     "static/media/nav-icon1.svg": "/Portfolio-Page/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.bdc3bebb.css.map": "/Portfolio-Page/static/css/main.bdc3bebb.css.map",
-    "main.6cd0b368.js.map": "/Portfolio-Page/static/js/main.6cd0b368.js.map",
+    "main.107ff2c5.js.map": "/Portfolio-Page/static/js/main.107ff2c5.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio-Page/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdc3bebb.css",
-    "static/js/main.6cd0b368.js"
+    "static/js/main.107ff2c5.js"
   ]
 }
